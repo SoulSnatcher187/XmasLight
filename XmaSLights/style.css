@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(13, 138, 88);
+  }
+  
+  .lights-container {
+    display: flex;
+  }
+  
+  .light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #920b0b;
+    transition: background-color 0.5s;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .controls input {
+    height: 25px;
+    width: 150px;
+  }
+
+  .controls input value{
+    position: relative;
+  }
+
+  .controls label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius:10px;
+  }
+  
